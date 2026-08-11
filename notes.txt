@@ -1,4 +1,4 @@
-Tables
+Tables 
 -------
 --Tables are defined with table tag 
 <table> </table>
