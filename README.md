@@ -12,14 +12,6 @@ A simple personal portfolio webpage containing About Me, Achievements, Education
 
 **Technologies:** HTML
 
-## 🎯 Purpose
-
-This repository contains my frontend projects and documents my progress in learning and building web applications.
-
-## 🚀 Future Projects
-
-More frontend projects will be added as I continue learning and improving my web development skills.
-
 ## 👩‍💻 Author
 
 **Lavanya Yalamanchi**
