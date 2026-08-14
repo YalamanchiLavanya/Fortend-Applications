@@ -12,22 +12,6 @@ A simple personal portfolio webpage containing About Me, Achievements, Education
 
 **Technologies:** HTML
 
-### 2. Student Registration Form
-A basic student registration form created using HTML form elements.
-
-**Technologies:** HTML
-
-### 3. Simple Calculator
-A basic calculator application created using HTML and JavaScript.
-
-**Technologies:** HTML, JavaScript
-
-## 🛠️ Technologies
-
-- HTML5
-- CSS3
-- JavaScript
-
 ## 🎯 Purpose
 
 This repository contains my frontend projects and documents my progress in learning and building web applications.
