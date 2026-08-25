@@ -12,6 +12,31 @@ A simple personal portfolio webpage containing About Me, Achievements, Education
 
 **Technologies:** HTML
 
+### 2. Personal Portfolio Website
+
+A simple and responsive personal portfolio website built using **HTML and CSS**. It showcases my profile, skills, projects, education, achievements, and contact information with a clean and modern design.
+
+### Technologies Used
+
+* HTML5
+* CSS3
+* Font Awesome
+
+### Features
+
+* Responsive navigation bar
+* Personal introduction section
+* Services/skills section
+* Projects showcase
+* Education details
+* Achievements section
+* Contact information
+* Responsive design for mobile devices
+* Hover effects and interactive buttons
+
+This project helped me practice **HTML structure, CSS styling, Flexbox, responsive design, and basic UI development**.
+
+
 ## 👩‍💻 Author
 
 **Lavanya Yalamanchi**
