@@ -262,6 +262,131 @@ Some possible improvements for this project:
 * 💾 Store cart data using Local Storage
 * 🔍 Add product search and filtering
 
+# 🌤️ Weather App
+
+A simple and interactive **Weather Application** built using **HTML, CSS, JavaScript, and OpenWeather API**. The application allows users to enter a city name and view its current weather information.
+
+## 📌 Project Overview
+
+This Weather App fetches real-time weather data from the **OpenWeather API** based on the city entered by the user.
+
+The application displays:
+
+* 🌍 City name
+* 🌡️ Current temperature
+* ☁️ Weather condition
+* 💧 Humidity
+
+## ✨ Features
+
+* 🔍 Search weather by city name
+* 🌡️ Displays temperature in Celsius
+* 💧 Shows humidity percentage
+* ☁️ Displays current weather condition
+* ⚡ Fetches data using JavaScript `fetch()`
+* 🔄 Uses asynchronous programming with `async/await`
+* 🎨 Simple and responsive user interface
+
+## 🛠️ Technologies Used
+
+* **HTML5** – Structure of the application
+* **CSS3** – Styling and layout
+* **JavaScript** – Functionality and API integration
+* **OpenWeather API** – Real-time weather data
+
+## 📂 Project Structure
+
+```text
+Weather-App/
+│
+├── index.html
+├── style.css
+└── README.md
+```
+
+## ⚙️ How It Works
+
+### 1. Enter a City
+
+The user enters a city name in the search box.
+
+```html
+<input type="text" placeholder="enter city name" id="city">
+```
+### 2. Fetch Weather Data
+
+JavaScript sends a request to the OpenWeather API:
+```javascript
+async function getweather() {
+    let city = document.getElementById('city');
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&units=metric&appid=YOUR_API_KEY`;
+    let data = await fetch(api);
+    let finaldata = await data.json();
+}
+```
+
+### 3. Display Weather Information
+The API response is used to display the temperature, humidity, and weather condition.
+```javascript
+temp.innerHTML = finaldata.main.temp;
+humid.innerHTML = finaldata.main.humidity;
+state.innerHTML = finaldata.weather[0].main;
+```
+## 🖥️ Example
+Enter:
+```text
+Hyderabad
+```
+The application displays:
+```text
+Hyderabad
+30°C
+Clouds
+Humidity: 65%
+```
+*The actual values change according to the current weather data.*
+
+## 🚀 How to Run
+1. Clone the repository:
+2. Open the project folder.
+3. Get an API key from OpenWeather.
+4. Add your API key to the JavaScript API URL.
+5. Open `index.html` in your browser.
+
+## 🔐 API Key Security
+For a real project, **do not publish your API key directly in a public GitHub repository**.
+Use an environment variable or a backend server to keep the API key secure.
+
+## 📸 Preview
+Add your project screenshot here:
+
+```markdown
+![Weather App Preview](screenshot.png)
+```
+
+## 🎯 Learning Outcomes
+This project helped me practice:
+
+* DOM manipulation
+* JavaScript functions
+* `fetch()` API
+* `async/await`
+* JSON data handling
+* API integration
+* Template literals
+* Dynamic webpage updates
+* CSS styling and layout
+
+## 🔮 Future Improvements
+
+* 📍 Detect user's current location
+* 🌦️ Add weather icons
+* 📅 Add a 5-day weather forecast
+* ⚠️ Add error messages for invalid cities
+* 🌙 Add dark mode
+* 📱 Improve mobile responsiveness
+* 🌡️ Add Celsius/Fahrenheit conversion
+
 ## 👩‍💻 Author
 
 **Lavanya**
