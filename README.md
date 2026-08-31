@@ -166,18 +166,105 @@ Through this project, I improved my understanding of:
 * Connect the website with a backend
 * Add real-time ride tracking
 
+# 🛒 Mini Shopping Cart
+
+A simple and interactive **Mini Shopping Cart** built using **HTML, CSS, and JavaScript**. This project demonstrates how JavaScript can be used to dynamically add products to a cart, update the cart item count, and calculate the total price.
+
+## 📌 Project Overview
+
+This project contains a simple shopping interface with different products such as **Nike Shoes, Smart Watch, and Headphones**.
+
+Users can click the **Add to Cart** button to:
+
+* Add products to the cart
+* Increase the cart item count
+* Display selected product details
+* Automatically calculate the total price
+
+## ✨ Features
+
+* 🛍️ Product cards with images
+* ➕ Add to Cart functionality
+* 🔢 Dynamic cart item count
+* 💰 Automatic total price calculation
+* 📋 Displays cart details dynamically
+* 🎨 Clean and simple user interface
+* 📱 Responsive product layout
+
+## 🛠️ Technologies Used
+
+* **HTML5** – Structure of the webpage
+* **CSS3** – Styling and responsive layout
+* **JavaScript** – Cart functionality and dynamic updates
+
+## 📂 Project Structure
+
+```text
+Mini-Shopping-Cart/
+│
+├── index.html
+└── README.md
+```
+
+## 🖥️ Products Included
+
+| Product       | Price |
+| ------------- | ----: |
+| 👟 Nike Shoes | ₹2000 |
+| ⌚ Smart Watch | ₹1500 |
+| 🎧 Headphones | ₹1200 |
+
+## ⚙️ How It Works
+
+
+### 3. Dynamic Updates
+Whenever a product is added:
+
+* The **cart count** increases.
+* The **total price** is updated.
+* The selected product appears in the **Cart Details** section.
+
+## 🚀 How to Run
+
+1. Clone the repository:
+2. Open the project folder.
+3. Open `index.html` in your browser.
+No additional installation is required.
+
+## 📸 Preview
+
+Add your project screenshot here:
+
+```markdown
+![Mini Shopping Cart Preview](screenshot.png)
+```
+
+## 🎯 Learning Outcomes
+This project helped me practice:
+
+* JavaScript functions
+* Variables and arithmetic operations
+* DOM manipulation
+* Template literals
+* `onclick` events
+* Dynamic HTML generation
+* CSS Flexbox
+* Creating reusable UI components
+
+## 🔮 Future Improvements
+Some possible improvements for this project:
+
+* ➖ Remove items from cart
+* 🔢 Increase/decrease product quantity
+* 🗑️ Clear cart button
+* 💳 Checkout functionality
+* 💰 Discount and tax calculation
+* 💾 Store cart data using Local Storage
+* 🔍 Add product search and filtering
+
 ## 👩‍💻 Author
 
 **Lavanya**
-
-This project was created as part of my journey to improve my **Frontend Development and Web Design skills**.
-
-⭐ If you find this project useful, feel free to give the repository a star!
-
-
-
-## 👩‍💻 Author
-
-**Lavanya Yalamanchi**
-
+This project was created as part of my journey to improve my **Frontend Development and JavaScript skills**.
+⭐ If you like this project, consider giving the repository a star!
 Computer Science & Data Science Student
